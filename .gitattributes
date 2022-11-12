@@ -1,2 +1,2 @@
-ch1/00_workflow/*.bat linguist-vendored
+*.bat linguist-vendored
 
