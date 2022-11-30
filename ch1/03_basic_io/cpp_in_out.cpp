@@ -8,12 +8,12 @@ using std::cin;
 using std::endl;
 
 int main(){
-  int input = 0 ; 
+    int input = 0 ; 
 	
-  cout<< "Enter a number: " ; 
-  cin >> input ;
+    cout<< "Enter a number: " ; 
+    cin >> input ;
   
-  cout << "You entered : " << input << endl ; 
+    cout << "You entered : " << input << endl ; 
   
   return 0;
 }
