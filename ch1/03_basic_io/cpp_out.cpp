@@ -7,6 +7,6 @@ using std::cout;
 using std::endl;
 
 int main(){
-	cout << "Name \t Age\n Nemo \t 2 weeks\n" ; 
-	return 0;
+  cout << "Name \t Age\n Nemo \t 2 weeks\n" ; 
+  return 0;
 }
