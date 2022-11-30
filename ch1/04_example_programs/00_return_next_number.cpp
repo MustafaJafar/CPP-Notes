@@ -10,13 +10,13 @@ using std::cin;
 using std::endl;
 
 int main(){
-	int number = 0 ;
+    int number = 0 ;
 	
-	cout << "Enter a number: " ; 
-	cin >> number ; 
+    cout << "Enter a number: " ; 
+    cin >> number ; 
     cout << "----------------------" << endl;
-	cout << "You Entered: " << number << endl;
-	cout << "Next Number is: " << number + 1 << endl ; 
+    cout << "You Entered: " << number << endl;
+    cout << "Next Number is: " << number + 1 << endl ; 
 
   return 0 ;
 }
