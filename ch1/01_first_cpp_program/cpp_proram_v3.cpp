@@ -8,6 +8,6 @@ using std::cout;
 using std::endl;
 
 int main(){
-	cout << "This is printed from C++ program!" << endl; 
-	return 0;
+    cout << "This is printed from C++ program!" << endl; 
+  return 0;
 }
