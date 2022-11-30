@@ -10,16 +10,16 @@ using std::cin;
 using std::endl;
 
 int main(){
-	float base = 0 , height = 0 ;
+    float base = 0 , height = 0 ;
 	
     cout << "This program calculates are of a triangle:" << endl ;  // welcome message
 	
     cout << "Enter  Base: " ; 
-	cin >> base ; 
+    cin >> base ; 
     cout << "Enter  Height: " ; 
     cin >> height ; 
 
-	cout << "Area: (" << base << " x " << height << ") / 2  = " << base * height / 2 << endl ; 
+    cout << "Area: (" << base << " x " << height << ") / 2  = " << base * height / 2 << endl ; 
 
   return 0 ;
 }
