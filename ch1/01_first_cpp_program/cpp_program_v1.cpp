@@ -4,6 +4,6 @@
 #include <iostream>
 
 int main(){
-	std::cout << "This is printed from C++ program!" << std::endl; 
-	return 0;
+    std::cout << "This is printed from C++ program!" << std::endl; 
+  return 0;
 }
