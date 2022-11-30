@@ -24,9 +24,9 @@ int main(){
 
     wcout << "This program calculates circle's perimeter and area from a given radius :" << endl ;  // welcome message
     wcout << "Enter a circle's radius: " ; 
-	wcin >> radius ; 
+    wcin >> radius ; 
 
-	wcout << "Perimeter = 2*PI*" <<  radius << " = "<< 2 * M_PI * radius << endl ; 
+    wcout << "Perimeter = 2*PI*" <<  radius << " = "<< 2 * M_PI * radius << endl ; 
     wcout << "Area = PI*" <<  radius << L"\x00B2 = "<< M_PI * radius * radius << endl ; //L"\x00B2" to display (²)
 
   return 0 ;
