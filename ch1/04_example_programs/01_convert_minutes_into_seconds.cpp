@@ -10,13 +10,13 @@ using std::cin;
 using std::endl;
 
 int main(){
-	int minutes = 0 ;
+    int minutes = 0 ;
 	
-	cout << "Enter Minutes Count: " ; 
-	cin >> minutes ; 
+    cout << "Enter Minutes Count: " ; 
+    cin >> minutes ; 
     cout << "----------------------" << endl;
-	cout << "Minutes Entered: " << minutes << endl;
-	cout << "Equivalent Seconds: " << minutes * 60 << endl ; 
+    cout << "Minutes Entered: " << minutes << endl;
+    cout << "Equivalent Seconds: " << minutes * 60 << endl ; 
 
   return 0 ;
 }
