@@ -11,16 +11,16 @@ using std::cin;
 using std::endl;
 
 int main(){
-	int n_apples = 0 , n_friends = 0 ;
+    int n_apples = 0 , n_friends = 0 ;
 	
     cout << "This program distributes apples among firends:" << endl ;  // welcome message
 	
     cout << "Enter Number of apples: " ; 
-	cin >> n_apples ; 
+    cin >> n_apples ; 
     cout << "Enter Number of frieds: " ; 
     cin >> n_friends ; 
 
-	cout << "Every friend's share: " << n_apples / n_friends << endl ; 
+    cout << "Every friend's share: " << n_apples / n_friends << endl ; 
     cout << "Apples left: " << n_apples % n_friends << endl ; 
 
   return 0 ;
